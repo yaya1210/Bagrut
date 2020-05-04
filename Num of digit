@@ -1,0 +1,11 @@
+public class HelloWorld{
+    public static int numofDigit(int n)
+    {
+        if (n<10) return 1;
+        else return 1+numofDigit(n/10);
+    }
+
+     public static void main(String []args){
+        System.out.println(numofDigit(55555555));
+     }
+}
